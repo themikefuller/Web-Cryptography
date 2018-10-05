@@ -126,7 +126,7 @@ function AES() {
 #### Encrypt / Decrypt with a password
 ```javascript
 
-let message = "Hello world";
+    let message = "Hello world";
     let password = "password";
 
     let encrypted = await AES().encrypt(message,password);
