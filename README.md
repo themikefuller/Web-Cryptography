@@ -45,7 +45,7 @@ Web Cryptography Examples using the crypto.subtle API (SubtleCrypto) aka window.
       "length": 256
   }, true, ['encrypt', 'decrypt']);
 
-  // The raw bits of the actual encryption can be exported and saved in the ship's computer.
+  // The raw bits of the actual encryption key can be exported and saved in the ship's computer.
   // These bits should be stored encrypted and should reference the specfic ship you are communicating with.
   var exported = await crypto.subtle.exportKey('raw', key);
 
@@ -63,7 +63,7 @@ Web Cryptography Examples using the crypto.subtle API (SubtleCrypto) aka window.
 
   // The alienship sends the bits and the iv to the starship
 
-  // The starship decrypts the message using the shared key and publically provided iv.
+  // The starship decrypts the message using the shared key and publicly provided iv.
   var decrypted = await crypto.subtle.decrypt({
       "name": "AES-GCM",
       "iv": iv
