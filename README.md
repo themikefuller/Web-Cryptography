@@ -261,5 +261,8 @@ function AES() {
     
 ```
 
+### HMAC Sign / Verify
+See the aes2.js file for a similar function that utilzes HMAC for signing / verifying for integrity.
+
 ## Additional Examples
 More to come...
