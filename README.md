@@ -266,3 +266,6 @@ See the aes2.js file for a similar function that utilzes HMAC for signing / veri
 
 ## Additional Examples
 More to come...
+
+## TODO
+ + Create example that further encodes the the base64 output to base64url
