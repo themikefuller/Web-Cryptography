@@ -264,8 +264,11 @@ function AES() {
 ### HMAC Sign / Verify
 See the aes2.js file for a similar function that utilzes HMAC for signing / verifying for integrity.
 
+### Base64url encoding
+See the aes3.js file for a similar function that utilzes HMAC for signing / verifying and outputs the parts encoded for base64url.
+
 ## Additional Examples
 More to come...
 
 ## TODO
- + Create example that further encodes the the base64 output to base64url
+ + DONE! see aes3.js ~~Create example that further encodes the the base64 output to base64url~~
